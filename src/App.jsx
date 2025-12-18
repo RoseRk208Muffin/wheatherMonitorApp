@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
+import.meta.env.VITE_WEATHER_API_KEY;
 
 function App() {
   const [city, setCity] = useState("");
